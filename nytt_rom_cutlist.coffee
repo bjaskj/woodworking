@@ -31,12 +31,12 @@ for cabinet in [1...4]
             do (drawer) ->
                 drawerPartHeight = drawer.height - railingHeight
 
-                addCut "Part A#{drawerPartHeight}: #{drawerPartHeight}x446x12" 
-                addCut "Part B#{drawerPartHeight}: #{drawerPartHeight}x585x12" 
-                addCut "Part B#{drawerPartHeight}: #{drawerPartHeight}x585x12" 
-                addCut "Part C: 470x585x6" 
-                addCut "Part D#{drawerPartHeight}: #{drawer.height}x470x15" 
-                addCut "Part E#{drawerPartHeight}: #{drawerPartHeight}x500x12" 
-                addCut "Part E#{drawerPartHeight}: #{drawerPartHeight}x500x12"
+                addCut "Part A#{drawerPartHeight}: #{drawerPartHeight}x426x12" 
+                addCut "Part B#{drawerPartHeight}: #{drawerPartHeight}x600x12" 
+                addCut "Part B#{drawerPartHeight}: #{drawerPartHeight}x600x12" 
+                addCut "Part C: 600x470x6" 
+                addCut "Part D#{drawerPartHeight}: #{drawer.height}x500x15" 
+                addCut "Part E#{drawerPartHeight}: #{drawerPartHeight}x600x12" 
+                addCut "Part E#{drawerPartHeight}: #{drawerPartHeight}x600x12"
 
 console.log "#{key} - x #{value}" for key, value of cutlist
